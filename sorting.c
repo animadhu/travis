@@ -1,6 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
-int *myfunc();
+int a=10;
+int b=20;
+printf("%d",a+b);
+/*int *myfunc();
 int main()
 {
         int *ptr;
@@ -35,4 +38,4 @@ int *myfunc()
     }
     }
     return b;
-}
+}*/
