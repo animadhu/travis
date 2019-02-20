@@ -2,10 +2,10 @@
 #include <stdlib.h>
 int main()
 {
-int a=10;
-int b=20;
-printf("%d",a+b);
-return 0;
+        int a=10;
+        int b=20;
+        printf("%d",a+b);
+        return 0;
 }
 /*int *myfunc();
 int main()
