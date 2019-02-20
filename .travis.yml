@@ -1,9 +1,10 @@
-language:c
-sudo:false#onlyforfasterbuilds
-compiler:
--clang
--gcc
-script:
--gcc-otesttest.c//wecanusegccinsteadofclangtoo
--./test
-
+matrix:
+  include:    
+    - language: c  
+      sudo: false # only for faster builds  
+      compiler:
+        - clang
+        - gcc
+      script:  
+        - gcc -o sorting sorting.c 
+        - ./sorting
